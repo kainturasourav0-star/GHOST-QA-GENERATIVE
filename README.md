@@ -16,4 +16,23 @@ GHOST-QA-GENERATIVE is an AI-powered Question Answering (QA) system designed to 
 - **Docker** (optional, for containerization)
 
 ## 📂 Project Structure
+├── data/              # Sample datasets
+├── models/            # Pretrained or fine-tuned models
+├── src/               # Core source code
+│   ├── app.py         # Main application entry
+│   ├── utils.py       # Helper functions
+│   └── qa_engine.py   # QA logic
+├── requirements.txt   # Dependencies
+└── README.md          # Project documentation
+
+## ⚙️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kainturasourav0-star/GHOST-QA-GENERATIVE.git
+   cd GHOST-QA-GENERATIVE
+2. Install dependencies:
+   pip install -r requirements.txt
+3. Run the application:
+     python src/app.py
+
 
